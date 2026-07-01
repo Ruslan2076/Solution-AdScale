@@ -7,9 +7,9 @@
 - **bidding-service.md**: спецификация сервиса ставок, границы, внешний и внутренний API, зависимости от других сервисов, модель данных.
 - **interaction.md**: протоколы взаимодействия с обоснованием, gRPC для внутренних вызовов, REST/OpenRTB для DSP-партнёра, Kafka для потоковой обработки событий.
 - **api-gateway.md**: дизайн API Gateway для DSP-интеграции, маршрутизация, аутентификация, rate limiting, мониторинг времени отклика.
-- **reliability-patterns.md**: паттерны надёжности, Circuit Breaker для вызовов зависимых сервисов, Retry с экспоненциальной задержкой, идемпотентность финансовых операций, резервные стратегии.
-- **diagrams/bid-request-sequence.puml**: sequence-диаграмма полного цикла обработки bid request, синхронный hot path и асинхронная публикация событий.
-- **diagrams/bidding-service-component.puml**: component-диаграмма внутреннего устройства Bidding & Delivery Service.
+- **reliability.md**: паттерны надёжности, Circuit Breaker для вызовов зависимых сервисов, Retry с экспоненциальной задержкой, идемпотентность финансовых операций, резервные стратегии.
+- **diagrams/sequence.md**: sequence-диаграмма полного цикла обработки bid request, синхронный hot path и асинхронная публикация событий.
+- **diagrams/component.md**: component-диаграмма внутреннего устройства Bidding & Delivery Service.
 
 ## Ключевое архитектурное решение
 
